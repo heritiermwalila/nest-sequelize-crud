@@ -16,7 +16,7 @@ import { UserModule } from './modules/user/user.module';
     port: +process.env.DB_PORT,
     username: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    name: process.env.DB_NAME,
+    database: process.env.DB_NAME,
     synchronize: true,
     autoLoadModels: true,
   }), UserModule],
